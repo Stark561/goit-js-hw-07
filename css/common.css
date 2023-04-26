@@ -22,3 +22,27 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* Меню
+============================= */
+
+.menu-list{
+  list-style: none;
+}
+
+.menu-item{
+  margin-bottom: 20px;
+}
+
+.menu-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: #fdb93a;
+outline: none;
+}
