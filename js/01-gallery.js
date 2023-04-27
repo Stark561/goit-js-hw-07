@@ -32,3 +32,33 @@ function onGalleryItemClick(event) {
   instance.show();
 }
 
+
+
+
+
+
+
+// let modal;
+// function omModalEscapeClose(event){
+//   if (event.code !== "Escape") return;
+//   modal.close();
+// }
+
+// galleryist.addEventListener("click", (event) => {
+//   if (event.target.nodeName !== "IMG") return;
+//   const largeImageSrc = event.target.dataset.source;
+//   event.prevenDefault();
+//   const options = {
+//     onShow: (instance) => {
+//       document.addEventListener("keydown", onModalEscapeClose);
+//     },
+//     onClose: (instance) => {
+//       document.removeEventListener("keydown", onModalEscapeClose);
+//     },
+//   };
+
+//   modal= basicLightbox.create(
+//     `<img src = "${largeImageSrc}" alt="" />`,
+//     options
+//   );
+//   modal.show();
