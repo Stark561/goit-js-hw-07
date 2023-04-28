@@ -12,7 +12,6 @@ const createGalleryItemMarkup = ({ preview, original, description }) => {
       </a>
     </li>`;
 };
-
 const galleryMarkup = galleryItems.map(createGalleryItemMarkup).join('');
 galleryList.insertAdjacentHTML('beforeend', galleryMarkup);
 galleryList.addEventListener('click', onGalleryItemClick);
