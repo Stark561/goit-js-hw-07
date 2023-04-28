@@ -6,7 +6,7 @@ import { galleryItems } from './gallery-items.js';
 const galleryList = document.querySelector('.gallery');
 let markup = galleryItems
 .map(({ preview, original, description}) => {
-  console.log(original);
+  // console.log(original);
   return `<li class="gallery__item">
     <a class="gallery__link" href="${original}">
       <img class="gallery__image" src="${preview}" alt="${description}" />
